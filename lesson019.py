@@ -1,14 +1,14 @@
 class Account:
+    def createAccount(self, name, email, password):
+        self.name = name
+        self.email = email
+        self.password = password
+
     def createAccount(self, name, email, password, mobileno):
         self.name = name
         self.email = email
         self.password = password
         self.mobileno = mobileno
-
-    def createAccount(self, name, email, password):
-        self.name = name
-        self.email = email
-        self.password = password
 
     def showData(self):
         print(self.name)
